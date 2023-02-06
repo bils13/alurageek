@@ -1,0 +1,95 @@
+.main {
+    .gallery {
+        padding: 0 1em;
+        display: flex;
+        flex-direction: column;
+        &__title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1em 0;
+            h1, a {
+                font-family: $fonte-principal;
+                // margin-bottom: 1em;
+            }
+            a {
+                color: $cor-principal;
+                font-weight: 700;
+                font-size: 0.8em;
+                text-decoration: none;
+            }
+        }
+        .card {
+            &__list {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                column-gap: 1em;
+            }
+            .hidden {
+                display: none;
+            }
+            &__element {
+                @include card_element;
+                &--img {
+                    @include card_imagem('../img/card/img1.jpg');
+                }
+                label {
+                    @include card_info_style($fonte-principal, 0.8em, 500);
+                }
+                p {
+                    @include card_info_style($fonte-principal, 0.9em, 700);
+                }
+                a {
+                    @include card_info_style($fonte-principal, 0.8em, 700, $cor-principal);
+                }
+            }
+        }
+    }   
+}
+
+@media only screen and (min-width: 768px) {
+    .main {
+        .gallery {
+            padding: 0 2em;
+            &__title {
+                h1 {
+                    font-size: 1.37em;
+                 }
+                 a {
+                    font-size: 1em;
+                 }
+            }
+            .card {
+                &__list {
+                    @include card_list(4);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .main {
+        .gallery {
+            padding: 1em 9em;
+            &__title {
+                h1 {
+                    font-size: 2em;
+                 }
+                 a {
+                    font-size: 1em;
+                 }
+            }
+            .card {
+                &__list {
+                    grid-template-columns: repeat(6, 1fr);
+                    grid-template-rows: 1fr;
+                }
+                .hidden {
+                    display: flex;
+                }
+            }
+        }
+    }
+}

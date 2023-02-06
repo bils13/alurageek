@@ -1,0 +1,89 @@
+.header {
+    .navbar {
+        position: sticky;
+        z-index: 1;
+        display: flex;
+        padding: 1em 1em;
+        justify-content: space-between;
+        align-items: center;
+        &__look {
+            display: none;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #F5F5F5;
+            width: 272px;
+            height: 40px;
+            border-radius: 20px;
+            input {
+                background-color: inherit;
+                color: #A2A2A2;
+                font-family: $fonte-principal;
+                font-size: 0.8em;
+                line-height: 1em;
+                border: none;
+                margin-left: 12px;
+                outline: 0;
+                width: 80%;
+            }
+            img {
+                margin-right: 12px;
+                height: 1em;
+                width: 1em;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        // &__logo {
+        //     img {
+        //         width: 100px;
+        //     }
+        // }
+        &__button {
+            button {
+                border: 2px solid $cor-principal;
+                font-family: $fonte-principal;
+                font-weight: 400;
+                font-size: 0.8em;
+                color: $cor-principal;
+                background-color: white;
+                padding: 0.75em 3em;
+            }
+        }
+        .button__addProducts {
+            button {
+                padding: 0.8em 1em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        .navbar {
+            padding: 1em 2em;
+            &__look {
+                display: flex;
+            }
+            &__icon {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .header {
+        .navbar {
+            padding: 1em 9em;
+            &__look {
+                width: 393px;
+            }
+            &__logo {
+                img {
+                    width: 200px;
+                }
+            }
+        }
+    }
+}

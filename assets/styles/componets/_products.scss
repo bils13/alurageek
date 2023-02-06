@@ -1,0 +1,98 @@
+main {
+    .products {
+        padding: 2em;
+        width: 100vw;
+        background-color: #F5F5F5;
+        &__header {
+            display: flex;
+            flex-direction: column;
+        }
+        &__title {
+            h1 {
+                margin-bottom: 1em;
+                font-family: $fonte-principal;
+                color: #464646;
+                font-size: 1.37em;
+                font-weight: 700;
+            }
+        }
+        &__button {
+            button {
+                padding: 0.8em 1em;
+                border: none;
+                background-color: $cor-principal;
+                color: white;
+                font-family: $fonte-principal;
+                font-weight: 400;
+                font-size: 0.8em;
+                margin-bottom: 1em;
+            }
+        }
+        .card {
+            &__list {
+                display: grid;
+                @include card_list(2);
+                column-gap: 1em;
+            }
+            &__element {
+                @include card_element;
+                h2 {
+                    @include card_info_style($fonte-principal, 0.8em, 500, #464646)
+                }
+                p {
+                    @include card_info_style($fonte-principal, 1em, 700, #464646)
+                }
+                legend {
+                    @include card_info_style($fonte-principal, 0.8em, 500, #464646)
+                }
+                &--img {
+                    position: relative;
+                    @include card_imagem('../img/card_consoles/img5.jpg')
+                }
+            }
+            &__buttons {
+                position: absolute;
+                right: 11px;
+                top: 11px;
+                i {
+                   margin-left: 19px;
+                   color: white;
+                   font-size: 1em;
+                   &:hover {
+                    cursor: pointer;
+                   }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        .products {
+            &__header {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center
+            }
+            .card {
+                &__list {
+                    @include card_list(4);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    main {
+        .products {
+            padding: 54px 162px;
+            .card {
+                &__list {
+                    @include card_list(6)
+                }
+            }
+        }
+    }
+}

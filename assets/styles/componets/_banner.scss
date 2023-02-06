@@ -1,0 +1,70 @@
+main {
+    .banner {
+        height: 192px;
+        width: 100vw;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../img/banner__bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding: 1em;
+        color: white;
+        font-family: $fonte-principal;
+        &__title {
+            font-weight: 700;
+            font-size: 0.8em;
+            width: 100%;
+        }
+        &__text {
+            margin-top: 0.5em;
+            font-size: 0.8em;
+            line-height: 1em;
+        }
+        &__button {
+            button {
+                background-color: $cor-principal;
+                border: none;
+                padding: 1em;
+                color: white;
+                margin-top: 0.5em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        .banner {
+            height:  352px;
+            &__title {
+                font-size: 2em;
+                line-height: 2.2em;
+            }
+            &__text {
+                font-size: 1em;
+                font-weight: 700;
+            }
+            &__button {
+                margin-top: 1em;
+                font-size: 0.8em;
+                margin-bottom: 1em;
+            }
+        }
+    } 
+}
+
+@media only screen and (min-width: 1440px) {
+    main {
+        .banner {
+            padding: 1em 9em;
+            &__button {
+                button {
+                    font-weight: 400;
+                } 
+            }
+        }
+    }
+}

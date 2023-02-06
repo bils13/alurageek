@@ -1,0 +1,152 @@
+{
+  "produtos": [
+    {
+      "usuario": "usuario@email.com",
+      "senha": "123456"
+    },
+    {
+      "nome": "Caneca Bonecos Star Wars Preto",
+      "preço": "R$ 100,00",
+      "descrição": "HAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHHA",
+      "categoria": "Star-Wars",
+      "url": "/assets/img/card/img1",
+      "id": 1
+    },
+    {
+      "id": 7,
+      "nome": "Xbox Series S",
+      "categoria": "console",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "url": "/assets/img/console/img1"
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "console",
+      "url": "/assets/img/console/img3",
+      "id": 9
+    },
+    {
+      "nome": "Bonecos Star Wars Preto",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "Star-Wars",
+      "url": "/assets/img/card/img4",
+      "id": 10
+    },
+    {
+      "nome": "Boneco Sonic",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "diversos",
+      "url": "/assets/img/diversos/img3",
+      "id": 11
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "diversos",
+      "url": "/assets/img/diversos/img4",
+      "id": 12
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "diversos",
+      "url": "/assets/img/diversos/img5",
+      "id": 13
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "diversos",
+      "url": "/assets/img/diversos/img6",
+      "id": 14
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "diversos",
+      "url": "/assets/img/diversos/img2",
+      "id": 15
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "diversos",
+      "url": "/assets/img/diversos/img1",
+      "id": 16
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "Star-Wars",
+      "url": "/assets/img/card/img2",
+      "id": 17
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "Star-Wars",
+      "url": "/assets/img/card/img3",
+      "id": 18
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "console",
+      "url": "/assets/img/console/img4",
+      "id": 19
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "console",
+      "url": "/assets/img/console/img5",
+      "id": 20
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "console",
+      "url": "/assets/img/console/img6",
+      "id": 21
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "console",
+      "url": "/assets/img/console/img2",
+      "id": 22
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "Star-Wars",
+      "url": "/assets/img/card/img5",
+      "id": 23
+    },
+    {
+      "nome": "Nintendo",
+      "preço": "R$ 100,00",
+      "descrição": "Duas miniaturas do Star Wars preto.",
+      "categoria": "Star-Wars",
+      "url": "/assets/img/card/img6",
+      "id": 24
+    }
+  ]
+}
